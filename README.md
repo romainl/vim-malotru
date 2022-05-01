@@ -4,6 +4,8 @@ A relatively comfortable Vim colorscheme primarily designed for `TERM=xterm-16co
 
 ## Gallery
 
+### Various features in 16c
+
 ![diff](https://romainl.github.io/images/malotru/diff.png)
 ![messages](https://romainl.github.io/images/malotru/messages.png)
 ![misc](https://romainl.github.io/images/malotru/misc.png)
@@ -11,6 +13,10 @@ A relatively comfortable Vim colorscheme primarily designed for `TERM=xterm-16co
 ![quickfix](https://romainl.github.io/images/malotru/quickfix.png)
 ![spell](https://romainl.github.io/images/malotru/spell.png)
 ![windows](https://romainl.github.io/images/malotru/windows.png)
+
+### A `vimrc` in 256c
+
+![vimrc](https://romainl.github.io/images/malotru/vimrc.png)
 
 ## Install
 

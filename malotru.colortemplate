@@ -1,0 +1,168 @@
+;;; vim: ft=colortemplate fdm=marker cc=22,40,58 et ts=2 sw=2
+
+;;; Information
+Full name:   malotru
+Short name:  malotru
+Description: malotru
+Author:      Romain Lafourcade <romainlafourcade@gmail.com>
+Website:     https://github.com/romainl
+License:     Same as Vim
+
+Variant:    gui 256 16
+Background: dark
+
+;;; Color palette
+Color: darkred       #870000           88                darkred
+Color: darkyellow    #dfaf00           178               darkyellow
+Color: darkblue      #000087           18                darkblue
+Color: darkmagenta   #5f0087           54                darkmagenta
+Color: darkcyan      #008787           30                darkcyan
+Color: darkgreen     #00af00           34                darkgreen
+Color: darkgray      #878787           102               darkgray
+Color: black         #000000           16                black
+Color: red           #d70000           160               red
+Color: green         #87ff5f           119               green
+Color: yellow        #ffdf00           220               yellow
+Color: blue          #0087d7           32                blue
+Color: magenta       #d787d7           176               magenta
+Color: cyan          #5fffff           87                cyan
+Color: white         #ffffff           231               white
+Color: gray          #bcbcbc           250               gray
+
+;;; Special colors
+Color: DiffAdd       #87afff           111               cyan
+Color: DiffDelete    #ffdf87           222               yellow
+Color: DiffChange    #dfdfdf           188               lightgray
+Color: DiffText      #afafaf           145               darkgray
+
+;;; Chrome
+;;; Group            Foreground        Background        Attributes
+Variant:    gui 256 16
+Normal               gray              black
+
+ColorColumn          none              darkmagenta
+Conceal              none              none
+Cursor               black             green
+CursorColumn         none              none
+CursorIM             none              fg
+CursorLine           none              none
+CursorLineNr         none              none
+DiffAdd              DiffAdd           black             reverse
+DiffChange           DiffChange        black             reverse
+DiffDelete           DiffDelete        black             reverse
+DiffText             DiffText          black             reverse
+Error                red               white             reverse
+ErrorMsg             white             red
+FoldColumn           darkgray          none
+Folded               black             darkyellow
+IncSearch            magenta           black             t=reverse g=standout
+LineNr               darkgray          none
+MatchParen           none              none              reverse
+ModeMsg              black             green
+MoreMsg              cyan              none
+Pmenu                black             gray
+PmenuSbar            none              darkgray
+PmenuSel             black             white
+PmenuThumb           none              white
+Question             green             none
+QuickFixLine         black             magenta
+Search               yellow            black             reverse
+SignColumn           darkgray          none
+SpecialKey           cyan              none
+SpellBad             red               none              g=undercurl t=underline s=red
+SpellCap             green             none              g=undercurl t=underline s=green
+SpellLocal           cyan              none              g=undercurl t=underline s=cyan
+SpellRare            magenta           none              g=undercurl t=underline s=magenta
+StatusLine           black             gray
+StatusLineNC         gray              darkgray
+StatusLineTerm       black             green
+StatusLineTermNC     black             white
+ToolbarButton        black             white
+ToolbarLine          none              none
+VertSplit            darkgray          none
+Visual               black             darkcyan
+VisualNOS            darkcyan          white
+WarningMsg           red               none
+WildMenu             white             darkblue
+debugBreakpoint      green             darkblue          reverse
+debugPC              cyan              darkblue          reverse
+
+CurSearch         -> Search
+Debug             -> Special
+EndOfBuffer       -> Normal
+LineNrAbove       -> LineNr
+LineNrBelow       -> LineNr
+NonText           -> Normal
+TabLine           -> StatusLineNC
+TabLineFill       -> StatusLineNC
+TabLineSel        -> StatusLine
+Terminal          -> Normal
+diffAdded         -> String
+diffBDiffer       -> WarningMsg
+diffCommon        -> WarningMsg
+diffDiffer        -> WarningMsg
+diffIdentical     -> WarningMsg
+diffIsA           -> WarningMsg
+diffNoEOL         -> WarningMsg
+diffOnly          -> WarningMsg
+diffRemoved       -> WarningMsg
+lCursor           -> Cursor
+
+;;; Syntax
+;;; Group            Foreground        Background        Attributes
+Comment              blue              none
+Constant             green             none
+Directory            cyan              none
+Identifier           white             none
+Ignore               darkgray          none
+Label                yellow            none
+PreProc              darkgreen         none
+Special              darkgray          none
+Statement            yellow            none
+Title                white             black
+Todo                 none              none              reverse
+Type                 darkyellow        none
+Underlined           none              none              underline
+
+Boolean           -> Constant
+Character         -> Constant
+Conditional       -> Statement
+Define            -> PreProc
+Delimiter         -> Special
+Exception         -> Statement
+Float             -> Constant
+Function          -> Identifier
+Include           -> PreProc
+Keyword           -> Statement
+Macro             -> PreProc
+Number            -> Constant
+PreCondit         -> PreProc
+Repeat            -> Statement
+SpecialChar       -> Special
+SpecialComment    -> Special
+StorageClass      -> Type
+String            -> Constant
+Structure         -> Type
+Tag               -> Special
+Typedef           -> Type
+
+;;; Language-specific overrides
+htmlTagName        -> Statement
+htmlEndTag         -> htmlTagName
+htmlLink           -> Function
+htmlSpecialTagName -> htmlTagName
+htmlTag            -> htmlTagName
+htmlBold           -> Normal
+htmlItalic         -> Normal
+htmlArg            -> htmlTagName
+xmlTag             -> Statement
+xmlTagName         -> Statement
+xmlEndTag          -> Statement
+
+;;; Terminal
+Term colors: black    darkred darkgreen darkyellow darkblue darkmagenta darkcyan gray
+Term colors: darkgray red     green     yellow     blue     magenta     cyan     white
+
+verbatim
+set fillchars+=vert:│
+endverbatim

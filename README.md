@@ -1,6 +1,14 @@
 # Malotru
 
-A relatively comfortable Vim colorscheme primarily designed for `TERM=xterm-16color` but with various colour shifts for more capable environments.
+A relatively comfortable Vim colorscheme primarily designed for 16color terminal emulators.
+
+## Goals
+
+- Be comfortable in 16c xterm.
+- Be even more comfortable in 256c or GUI via light color shifts.
+- Be colorblind-friendly.
+- Have the same colors in 256c and GUI.
+- Keep the template simple.
 
 ## Gallery
 
@@ -14,21 +22,19 @@ A relatively comfortable Vim colorscheme primarily designed for `TERM=xterm-16co
 ![spell](https://romainl.github.io/images/malotru/spell.png)
 ![windows](https://romainl.github.io/images/malotru/windows.png)
 
-### A `vimrc` in 256c
+### Someone's `vimrc` in 256c
 
 ![vimrc](https://romainl.github.io/images/malotru/vimrc.png)
 
-## Install
+## Instructions
 
-Install this the same way you installed your other plugins.
+1. Install this the same way you installed your other plugins.
 
-See `:help package`.
+   See `:help package` if you are beginning with Vim plugins.
 
-## Use
+2. Add the line below to your `vimrc`:
 
-Add the line below to your `vimrc`:
-
-    colorscheme malotru
+       colorscheme malotru
 
 ##  FAQ
 

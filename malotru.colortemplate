@@ -12,14 +12,15 @@ Variant:    gui 256 16
 Background: dark
 
 ;;; Color palette
+Color: black         #000000           16                black
 Color: darkred       #870000           88                darkred
+Color: darkgreen     #00af00           34                darkgreen
 Color: darkyellow    #dfaf00           178               darkyellow
 Color: darkblue      #000087           18                darkblue
 Color: darkmagenta   #5f0087           54                darkmagenta
 Color: darkcyan      #008787           30                darkcyan
-Color: darkgreen     #00af00           34                darkgreen
+Color: gray          #bcbcbc           250               gray
 Color: darkgray      #878787           102               darkgray
-Color: black         #000000           16                black
 Color: red           #d70000           160               red
 Color: green         #87ff5f           119               green
 Color: yellow        #ffdf00           220               yellow
@@ -27,7 +28,6 @@ Color: blue          #0087d7           32                blue
 Color: magenta       #d787d7           176               magenta
 Color: cyan          #5fffff           87                cyan
 Color: white         #ffffff           231               white
-Color: gray          #bcbcbc           250               gray
 
 ;;; Special colors
 Color: DiffAdd       #87afff           111               cyan

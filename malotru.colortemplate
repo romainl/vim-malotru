@@ -18,8 +18,8 @@ Color: darkgreen     #00af00           34                darkgreen
 Color: darkyellow    #dfaf00           178               darkyellow
 Color: darkblue      #000087           18                darkblue
 Color: darkmagenta   #5f0087           54                darkmagenta
-Color: darkcyan      #008787           30                darkcyan
-Color: gray          #bcbcbc           250               gray
+Color: darkcyan      #00d7d7           44                darkcyan
+Color: gray          #c6c6c6           251               gray
 Color: darkgray      #878787           102               darkgray
 Color: red           #d70000           160               red
 Color: green         #87ff5f           119               green

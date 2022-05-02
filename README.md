@@ -5,7 +5,7 @@ A relatively comfortable Vim colorscheme primarily designed for 16color terminal
 ## Goals
 
 - Be comfortable in 16c xterm.
-- Be even more comfortable in 256c or GUI via light color shifts.
+- Be even more comfortable in 256c or GUI via light color tweaks.
 - Be colorblind-friendly.
 - Have the same colors in 256c and GUI.
 - Keep the template simple.

@@ -34,68 +34,81 @@ Color: DiffAdd       #87afff           111               cyan
 Color: DiffDelete    #ffdf87           222               yellow
 Color: DiffChange    #dfdfdf           188               lightgray
 Color: DiffText      #afafaf           145               darkgray
+Color: GUICursor     #ff00ff           201               magenta
 
 ;;; Chrome
 ;;; Group            Foreground        Background        Attributes
 Variant:    gui 256 16
 Normal               gray              black
+NonText              gray              black
 
-ColorColumn          none              darkmagenta
-Conceal              none              none
-Cursor               black             green
+Cursor               black             GUICursor
 CursorColumn         none              none
-CursorIM             none              fg
+CursorIM             none              gray
 CursorLine           none              none
-CursorLineNr         none              none
+lCursor              black             GUICursor
+
 DiffAdd              DiffAdd           black             reverse
 DiffChange           DiffChange        black             reverse
 DiffDelete           DiffDelete        black             reverse
 DiffText             DiffText          black             reverse
-Error                red               white             reverse
-ErrorMsg             white             red
+
 FoldColumn           darkgray          none
 Folded               black             darkyellow
-IncSearch            magenta           black             t=reverse g=standout
+
+CursorLineNr         none              none
 LineNr               darkgray          none
-MatchParen           none              none              reverse
+
+ErrorMsg             white             red
 ModeMsg              black             green
 MoreMsg              cyan              none
+WarningMsg           red               none
+Question             green             none
+
 Pmenu                black             gray
 PmenuSbar            none              darkgray
 PmenuSel             black             white
 PmenuThumb           none              white
-Question             green             none
-QuickFixLine         black             magenta
+
+IncSearch            magenta           black             reverse
 Search               yellow            black             reverse
-SignColumn           darkgray          none
-SpecialKey           cyan              none
+
 SpellBad             red               none              g=undercurl t=underline s=red
 SpellCap             green             none              g=undercurl t=underline s=green
 SpellLocal           cyan              none              g=undercurl t=underline s=cyan
 SpellRare            magenta           none              g=undercurl t=underline s=magenta
+
 StatusLine           black             gray
 StatusLineNC         gray              darkgray
 StatusLineTerm       black             green
 StatusLineTermNC     black             white
+
+TabLine              gray              darkgray
+TabLineFill          gray              darkgray
+TabLineSel           black             gray
+
 ToolbarButton        black             white
 ToolbarLine          none              none
-VertSplit            darkgray          none
+
 Visual               black             darkcyan
 VisualNOS            darkcyan          white
-WarningMsg           red               none
-WildMenu             white             darkblue
+
 debugBreakpoint      green             darkblue          reverse
 debugPC              cyan              darkblue          reverse
 
+MatchParen           none              none              reverse
+ColorColumn          none              darkmagenta
+Conceal              none              none
+QuickFixLine         black             magenta
+SignColumn           darkgray          none
+VertSplit            darkgray          none
+WildMenu             black             white
+
 CurSearch         -> Search
 Debug             -> Special
-EndOfBuffer       -> Normal
+EndOfBuffer       -> NonText
 LineNrAbove       -> LineNr
 LineNrBelow       -> LineNr
-NonText           -> Normal
-TabLine           -> StatusLineNC
-TabLineFill       -> StatusLineNC
-TabLineSel        -> StatusLine
 Terminal          -> Normal
 diffAdded         -> String
 diffBDiffer       -> WarningMsg
@@ -106,18 +119,19 @@ diffIsA           -> WarningMsg
 diffNoEOL         -> WarningMsg
 diffOnly          -> WarningMsg
 diffRemoved       -> WarningMsg
-lCursor           -> Cursor
 
 ;;; Syntax
 ;;; Group            Foreground        Background        Attributes
 Comment              blue              none
 Constant             green             none
 Directory            cyan              none
+Error                red               white             reverse
 Identifier           white             none
 Ignore               darkgray          none
 Label                yellow            none
 PreProc              darkgreen         none
 Special              darkgray          none
+SpecialKey           darkgray          none
 Statement            yellow            none
 Title                white             black
 Todo                 none              none              reverse

@@ -5,14 +5,16 @@ A relatively comfortable Vim colorscheme primarily designed for 16color terminal
 ## Goals
 
 - Be comfortable in 16c xterm.
-- Be even more comfortable in 256c or GUI via light color tweaks.
+- Be even more comfortable in 256c or GUI via small color tweaks.
 - Be colorblind-friendly.
 - Have the same colors in 256c and GUI.
 - Keep the template simple.
 
 ## Gallery
 
-### Various features in 16c
+NOTE: the screenshots might not reflect the current state of the project.
+
+### Various features in 16c (xterm default palette)
 
 ![diff](https://romainl.github.io/images/malotru/diff.png)
 ![messages](https://romainl.github.io/images/malotru/messages.png)

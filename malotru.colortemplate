@@ -41,7 +41,7 @@ Color: GUICursor     #ff00ff           201               magenta
 Normal               gray              black
 NonText              gray              black
 
-Cursor               black             GUICursor
+Cursor               white             GUICursor
 CursorColumn         none              none
 CursorIM             none              gray
 CursorLine           none              none
@@ -78,12 +78,12 @@ SpellLocal           cyan              none              g=undercurl t=underline
 SpellRare            magenta           none              g=undercurl t=underline s=magenta
 
 StatusLine           black             gray
-StatusLineNC         gray              darkgray
+StatusLineNC         black             darkgray
 StatusLineTerm       black             green
 StatusLineTermNC     black             white
 
-TabLine              gray              darkgray
-TabLineFill          gray              darkgray
+TabLine              black             darkgray
+TabLineFill          black             darkgray
 TabLineSel           black             gray
 
 ToolbarButton        black             white

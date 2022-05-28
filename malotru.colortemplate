@@ -3,7 +3,7 @@
 ;;; Information
 Full name:   malotru
 Short name:  malotru
-Description: malotru
+Description: A relatively comfortable Vim colorscheme primarily designed for 16color terminal emulators.
 Author:      Romain Lafourcade <romainlafourcade@gmail.com>
 Website:     https://github.com/romainl
 License:     Same as Vim
@@ -38,7 +38,6 @@ Color: GUICursor     #ff00ff           201               magenta
 
 ;;; Chrome
 ;;; Group            Foreground        Background        Attributes
-Variant:    gui 256 16
 Normal               gray              black
 NonText              gray              black
 
@@ -110,15 +109,6 @@ EndOfBuffer       -> NonText
 LineNrAbove       -> LineNr
 LineNrBelow       -> LineNr
 Terminal          -> Normal
-diffAdded         -> String
-diffBDiffer       -> WarningMsg
-diffCommon        -> WarningMsg
-diffDiffer        -> WarningMsg
-diffIdentical     -> WarningMsg
-diffIsA           -> WarningMsg
-diffNoEOL         -> WarningMsg
-diffOnly          -> WarningMsg
-diffRemoved       -> WarningMsg
 
 ;;; Syntax
 ;;; Group            Foreground        Background        Attributes
@@ -133,7 +123,7 @@ PreProc              darkgreen         none
 Special              darkgray          none
 SpecialKey           darkgray          none
 Statement            yellow            none
-Title                white             black
+Title                none              none
 Todo                 none              none              reverse
 Type                 darkyellow        none
 Underlined           none              none              underline

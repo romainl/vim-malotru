@@ -39,7 +39,6 @@ Color: GUICursor     #ff00ff           201               magenta
 ;;; Chrome
 ;;; Group            Foreground        Background        Attributes
 Normal               gray              black
-NonText              gray              black
 
 Cursor               white             GUICursor
 CursorColumn         none              none
@@ -108,6 +107,7 @@ Debug             -> Special
 EndOfBuffer       -> NonText
 LineNrAbove       -> LineNr
 LineNrBelow       -> LineNr
+NonText           -> Normal
 Terminal          -> Normal
 
 ;;; Syntax

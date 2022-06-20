@@ -94,7 +94,7 @@ VisualNOS            darkcyan          white
 debugBreakpoint      green             darkblue          reverse
 debugPC              cyan              darkblue          reverse
 
-MatchParen           none              none              reverse
+MatchParen           black             darkgreen
 ColorColumn          none              darkmagenta
 Conceal              none              none
 QuickFixLine         black             magenta

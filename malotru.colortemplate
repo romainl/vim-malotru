@@ -45,8 +45,8 @@ Term colors: darkgray red     green     yellow     blue     magenta     cyan    
 Normal               gray              black
 
 Cursor               white             GUICursor
-CursorColumn         none              none
 CursorIM             none              gray
+CursorColumn         none              none
 CursorLine           none              none
 lCursor              black             GUICursor
 
@@ -58,7 +58,6 @@ DiffText             DiffText          black             reverse
 FoldColumn           darkgray          none
 Folded               black             darkyellow
 
-CursorLineNr         none              none
 LineNr               darkgray          none
 
 ErrorMsg             white             red
@@ -99,18 +98,21 @@ debugBreakpoint      green             darkblue          reverse
 debugPC              cyan              darkblue          reverse
 
 MatchParen           black             darkgreen
-ColorColumn          none              darkmagenta
 Conceal              none              none
-QuickFixLine         black             magenta
+ColorColumn          none              darkmagenta
 SignColumn           darkgray          none
 VertSplit            darkgray          none
 WildMenu             black             white
 
 CurSearch         -> Search
-NonText           -> Normal
+CursorLineFold    -> Cursorline
+CursorLineNr      -> Cursorline
+CursorLineSign    -> Cursorline
 EndOfBuffer       -> Normal
 LineNrAbove       -> LineNr
 LineNrBelow       -> LineNr
+NonText           -> Normal
+QuickFixLine      -> Search
 Terminal          -> Normal
 
 ;;; Syntax

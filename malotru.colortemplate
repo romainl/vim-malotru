@@ -97,6 +97,9 @@ VisualNOS            darkcyan          white
 debugBreakpoint      green             darkblue          reverse
 debugPC              cyan              darkblue          reverse
 
+EndOfBuffer          gray              black
+NonText              gray              black
+
 MatchParen           black             darkgreen
 Conceal              none              none
 ColorColumn          none              darkmagenta
@@ -108,10 +111,8 @@ CurSearch         -> Search
 CursorLineFold    -> Cursorline
 CursorLineNr      -> Cursorline
 CursorLineSign    -> Cursorline
-EndOfBuffer       -> Normal
 LineNrAbove       -> LineNr
 LineNrBelow       -> LineNr
-NonText           -> Normal
 QuickFixLine      -> Search
 Terminal          -> Normal
 

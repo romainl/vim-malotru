@@ -44,7 +44,7 @@ If you want to see your terminal emulator's background through Vim, add the foll
 
     augroup TransparentMalotru
         autocmd!
-        autocmd ColorScheme malotru hi Normal ctermbg=NONE
+        autocmd ColorScheme malotru hi Normal ctermbg=NONE | hi EndOfBuffer ctermbg=NONE | hi NonText ctermbg=NONE
     augroup END
 
 See [this gist](https://gist.github.com/romainl/379904f91fa40533175dfaec4c833f2f) for the rationale.

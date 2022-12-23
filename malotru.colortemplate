@@ -82,7 +82,7 @@ SpellRare            magenta           none              g=undercurl t=underline
 StatusLine           black             gray
 StatusLineNC         black             darkgray
 StatusLineTerm       black             green
-StatusLineTermNC     black             white
+StatusLineTermNC     black             darkgreen
 
 TabLine              black             darkgray
 TabLineFill          black             darkgray

@@ -33,7 +33,6 @@ Color: white         #ffffff           231               white
 Color: DiffAdd       #87afff           111               cyan
 Color: DiffDelete    #ffdf87           222               yellow
 Color: DiffChange    #dfdfdf           188               lightgray
-Color: DiffText      #afafaf           145               darkgray
 Color: GUICursor     #ff00ff           201               magenta
 
 ;;; Terminal
@@ -53,7 +52,7 @@ lCursor              black             GUICursor
 DiffAdd              DiffAdd           black             reverse
 DiffChange           DiffChange        black             reverse
 DiffDelete           DiffDelete        black             reverse
-DiffText             DiffText          black             reverse
+DiffText             DiffAdd           black             reverse
 
 FoldColumn           darkgray          none
 Folded               black             darkyellow
@@ -103,17 +102,17 @@ NonText              gray              black
 MatchParen           black             darkgreen
 Conceal              none              none
 ColorColumn          none              darkmagenta
+QuickFixLine         darkyellow        black             reverse
 SignColumn           darkgray          none
 VertSplit            darkgray          none
 WildMenu             black             white
 
-CurSearch         -> Search
+CurSearch         -> IncSearch
 CursorLineFold    -> Cursorline
 CursorLineNr      -> Cursorline
 CursorLineSign    -> Cursorline
 LineNrAbove       -> LineNr
 LineNrBelow       -> LineNr
-QuickFixLine      -> Search
 Terminal          -> Normal
 
 ;;; Syntax
